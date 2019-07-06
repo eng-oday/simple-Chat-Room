@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1407916C22CC13AA00E31070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407916B22CC13AA00E31070 /* AppDelegate.swift */; };
+		1407916E22CC13AB00E31070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407916D22CC13AB00E31070 /* ViewController.swift */; };
+		1407917122CC13AB00E31070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407916F22CC13AB00E31070 /* Main.storyboard */; };
+		1407917422CC13AB00E31070 /* SayHi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1407917222CC13AB00E31070 /* SayHi.xcdatamodeld */; };
+		1407917622CC13AD00E31070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1407917522CC13AD00E31070 /* Assets.xcassets */; };
+		1407917922CC13AD00E31070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407917722CC13AD00E31070 /* LaunchScreen.storyboard */; };
+		1407918122CC259F00E31070 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407918022CC259F00E31070 /* FormCell.swift */; };
+		1407918322CC2D6700E31070 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1407918222CC2D6700E31070 /* GoogleService-Info.plist */; };
+		1409466922CED78C006FFC19 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409466822CED78C006FFC19 /* ChatCell.swift */; };
+		1409466B22CEDF92006FFC19 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1409466A22CEDF92006FFC19 /* Message.swift */; };
+		14A2D95C22CDA8BB00860C30 /* ChatPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D95B22CDA8BB00860C30 /* ChatPageVC.swift */; };
+		14EAA1D822CD6C7E00504207 /* ChatRoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAA1D722CD6C7E00504207 /* ChatRoomsVC.swift */; };
+		14EAA1DD22CD748D00504207 /* SetCreateChatRoomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAA1DC22CD748D00504207 /* SetCreateChatRoomBtn.swift */; };
+		14EAA1DF22CD74C300504207 /* CreateRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAA1DE22CD74C300504207 /* CreateRoomVC.swift */; };
+		14EAA1E122CD895C00504207 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EAA1E022CD895C00504207 /* Room.swift */; };
+		1DF0C363C5730CDD545E691E /* Pods_SayHi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B05908B6113565F15648DB /* Pods_SayHi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1407916822CC13AA00E31070 /* SayHi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayHi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1407916B22CC13AA00E31070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1407916D22CC13AB00E31070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1407917022CC13AB00E31070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1407917322CC13AB00E31070 /* SayHi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SayHi.xcdatamodel; sourceTree = "<group>"; };
+		1407917522CC13AD00E31070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1407917822CC13AD00E31070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1407917A22CC13AD00E31070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1407918022CC259F00E31070 /* FormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		1407918222CC2D6700E31070 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1409466822CED78C006FFC19 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		1409466A22CEDF92006FFC19 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		14A2D95B22CDA8BB00860C30 /* ChatPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageVC.swift; sourceTree = "<group>"; };
+		14EAA1D722CD6C7E00504207 /* ChatRoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsVC.swift; sourceTree = "<group>"; };
+		14EAA1DC22CD748D00504207 /* SetCreateChatRoomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCreateChatRoomBtn.swift; sourceTree = "<group>"; };
+		14EAA1DE22CD74C300504207 /* CreateRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoomVC.swift; sourceTree = "<group>"; };
+		14EAA1E022CD895C00504207 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		94B05908B6113565F15648DB /* Pods_SayHi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayHi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C4715B3FE4D6454A9B9317 /* Pods-SayHi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayHi.release.xcconfig"; path = "Pods/Target Support Files/Pods-SayHi/Pods-SayHi.release.xcconfig"; sourceTree = "<group>"; };
+		FF0ABF3078F5792C83BA39C7 /* Pods-SayHi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SayHi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SayHi/Pods-SayHi.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1407916522CC13AA00E31070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF0C363C5730CDD545E691E /* Pods_SayHi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1407915F22CC13AA00E31070 = {
+			isa = PBXGroup;
+			children = (
+				1407916A22CC13AA00E31070 /* SayHi */,
+				1407916922CC13AA00E31070 /* Products */,
+				69FF5574C9CBDD2B541853CD /* Pods */,
+				8DF5F525BA33E8A9BF9B59B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1407916922CC13AA00E31070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1407916822CC13AA00E31070 /* SayHi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1407916A22CC13AA00E31070 /* SayHi */ = {
+			isa = PBXGroup;
+			children = (
+				14EAA1DB22CD745600504207 /* Controller */,
+				14EAA1DA22CD745200504207 /* View */,
+				14EAA1D922CD744B00504207 /* Model */,
+				1407916B22CC13AA00E31070 /* AppDelegate.swift */,
+				1407916F22CC13AB00E31070 /* Main.storyboard */,
+				1407917522CC13AD00E31070 /* Assets.xcassets */,
+				1407917722CC13AD00E31070 /* LaunchScreen.storyboard */,
+				1407917A22CC13AD00E31070 /* Info.plist */,
+				1407917222CC13AB00E31070 /* SayHi.xcdatamodeld */,
+				1407918222CC2D6700E31070 /* GoogleService-Info.plist */,
+			);
+			path = SayHi;
+			sourceTree = "<group>";
+		};
+		14EAA1D922CD744B00504207 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1407918022CC259F00E31070 /* FormCell.swift */,
+				14EAA1E022CD895C00504207 /* Room.swift */,
+				1409466822CED78C006FFC19 /* ChatCell.swift */,
+				1409466A22CEDF92006FFC19 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14EAA1DA22CD745200504207 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14EAA1DC22CD748D00504207 /* SetCreateChatRoomBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14EAA1DB22CD745600504207 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1407916D22CC13AB00E31070 /* ViewController.swift */,
+				14EAA1D722CD6C7E00504207 /* ChatRoomsVC.swift */,
+				14EAA1DE22CD74C300504207 /* CreateRoomVC.swift */,
+				14A2D95B22CDA8BB00860C30 /* ChatPageVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		69FF5574C9CBDD2B541853CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF0ABF3078F5792C83BA39C7 /* Pods-SayHi.debug.xcconfig */,
+				C3C4715B3FE4D6454A9B9317 /* Pods-SayHi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DF5F525BA33E8A9BF9B59B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B05908B6113565F15648DB /* Pods_SayHi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1407916722CC13AA00E31070 /* SayHi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1407917D22CC13AD00E31070 /* Build configuration list for PBXNativeTarget "SayHi" */;
+			buildPhases = (
+				3CCAC3F52DFC47C7ADFBA729 /* [CP] Check Pods Manifest.lock */,
+				1407916422CC13AA00E31070 /* Sources */,
+				1407916522CC13AA00E31070 /* Frameworks */,
+				1407916622CC13AA00E31070 /* Resources */,
+				9B86F2DCAFF606EF7F256205 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHi;
+			productName = SayHi;
+			productReference = 1407916822CC13AA00E31070 /* SayHi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1407916022CC13AA00E31070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Oday Dieg";
+				TargetAttributes = {
+					1407916722CC13AA00E31070 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1407916322CC13AA00E31070 /* Build configuration list for PBXProject "SayHi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1407915F22CC13AA00E31070;
+			productRefGroup = 1407916922CC13AA00E31070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1407916722CC13AA00E31070 /* SayHi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1407916622CC13AA00E31070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407917922CC13AD00E31070 /* LaunchScreen.storyboard in Resources */,
+				1407918322CC2D6700E31070 /* GoogleService-Info.plist in Resources */,
+				1407917622CC13AD00E31070 /* Assets.xcassets in Resources */,
+				1407917122CC13AB00E31070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CCAC3F52DFC47C7ADFBA729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SayHi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B86F2DCAFF606EF7F256205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SayHi/Pods-SayHi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SayHi/Pods-SayHi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1407916422CC13AA00E31070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407916E22CC13AB00E31070 /* ViewController.swift in Sources */,
+				14EAA1D822CD6C7E00504207 /* ChatRoomsVC.swift in Sources */,
+				14EAA1E122CD895C00504207 /* Room.swift in Sources */,
+				1409466922CED78C006FFC19 /* ChatCell.swift in Sources */,
+				14EAA1DD22CD748D00504207 /* SetCreateChatRoomBtn.swift in Sources */,
+				1407918122CC259F00E31070 /* FormCell.swift in Sources */,
+				1409466B22CEDF92006FFC19 /* Message.swift in Sources */,
+				1407916C22CC13AA00E31070 /* AppDelegate.swift in Sources */,
+				14EAA1DF22CD74C300504207 /* CreateRoomVC.swift in Sources */,
+				14A2D95C22CDA8BB00860C30 /* ChatPageVC.swift in Sources */,
+				1407917422CC13AB00E31070 /* SayHi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1407916F22CC13AB00E31070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1407917022CC13AB00E31070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1407917722CC13AD00E31070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1407917822CC13AD00E31070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1407917B22CC13AD00E31070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1407917C22CC13AD00E31070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1407917E22CC13AD00E31070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0ABF3078F5792C83BA39C7 /* Pods-SayHi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SayHi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.SayHi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1407917F22CC13AD00E31070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C4715B3FE4D6454A9B9317 /* Pods-SayHi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SayHi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.SayHi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1407916322CC13AA00E31070 /* Build configuration list for PBXProject "SayHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407917B22CC13AD00E31070 /* Debug */,
+				1407917C22CC13AD00E31070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1407917D22CC13AD00E31070 /* Build configuration list for PBXNativeTarget "SayHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407917E22CC13AD00E31070 /* Debug */,
+				1407917F22CC13AD00E31070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1407917222CC13AB00E31070 /* SayHi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1407917322CC13AB00E31070 /* SayHi.xcdatamodel */,
+			);
+			currentVersion = 1407917322CC13AB00E31070 /* SayHi.xcdatamodel */;
+			path = SayHi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1407916022CC13AA00E31070 /* Project object */;
+}

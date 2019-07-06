@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>202150534779-k1ns0qelkdm34iuonk1ptp2kt7mqec73.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.202150534779-k1ns0qelkdm34iuonk1ptp2kt7mqec73</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArrmpERAvfqtGRCucHjmPXjTzalVRi9Co</string>
+	<key>GCM_SENDER_ID</key>
+	<string>202150534779</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.SayHi</string>
+	<key>PROJECT_ID</key>
+	<string>sayhichat-220fe</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sayhichat-220fe.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:202150534779:ios:0fe36e68c9ea3eee</string>
+	<key>DATABASE_URL</key>
+	<string>https://sayhichat-220fe.firebaseio.com</string>
+</dict>
+</plist>
